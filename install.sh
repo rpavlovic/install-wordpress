@@ -28,13 +28,13 @@ wp rewrite structure '/%postname%/' &> /dev/null
 
 # Wordpress plugins to install (you can do similar for themes)
 plugins=(
-	https://downloads.wordpress.org/plugin/relative-url.zip
-	https://downloads.wordpress.org/plugin/wp-dbmanager.zip
-	https://downloads.wordpress.org/plugin/w3-total-cache.zip
-	https://downloads.wordpress.org/plugin/google-sitemap-generator.zip
+	http://downloads.wordpress.org/plugin/relative-url.zip
+	http://downloads.wordpress.org/plugin/wp-dbmanager.zip
+	http://downloads.wordpress.org/plugin/w3-total-cache.zip
+	http://downloads.wordpress.org/plugin/google-sitemap-generator.zip
 	http://downloads.wordpress.org/plugin/wordpress-seo.latest-stable.zip
-	https://downloads.wordpress.org/plugin/co-authors-plus.latest-stable.zip
-	https://downloads.wordpress.org/plugin/slideshow-jquery-image-gallery.zip
+	http://downloads.wordpress.org/plugin/co-authors-plus.latest-stable.zip
+	http://downloads.wordpress.org/plugin/slideshow-jquery-image-gallery.zip
 )
 echo -e "Installing Plugins"
 for n in ${plugins[@]}; do
